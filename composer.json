@@ -1,0 +1,20 @@
+{
+    "name": "marco/framework-php",
+    "description": "A custom framework of PHP",
+    "type": "proyect",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marco\\FrameworkPhp\\": "src/",
+            "App\\": "app/",
+            "Lib\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MarcoCaamal",
+            "email": "caamalmarco99@gmail.com"
+        }
+    ],
+    "require": {}
+}
